@@ -1,0 +1,59 @@
+body {
+    background-color: #faf9e8;
+  }
+  
+  .stories {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  #img-div {
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: center;
+  }
+  
+  #image {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 5px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  
+  .img-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #tribute-info {
+    font-family: "Lato", Tahoma;
+    margin-left: 10px;
+  }
+  
+  #alt {
+    font-family: "Lato", Tahoma;
+    color: #5742f5;
+    font-size: 14px;
+    padding-top: 0;
+    padding-left: 15px;
+    margin: 0 0 15px 0;
+  }
+  
+  #img-caption {
+    font-size: 1px;
+    color: black;
+  }
+  
+  h1 {
+    font-family: "Lato", Tahoma;
+    text-align: center;
+  }
+  
